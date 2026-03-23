@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "nakama-common": "github:heroiclabs/nakama-common",
+    "rollup": "^4.9.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.3.0",
+    "tslib": "^2.6.0"
+  }
+}

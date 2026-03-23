@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "declaration": false,
+    "noImplicitAny": true,
+    "outDir": "./build",
+    "typeRoots": [],
+    "skipLibCheck": true,
+    "lib": ["ES2020"]
+  },
+  "files": [
+    "node_modules/nakama-common/index.d.ts"
+  ],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
